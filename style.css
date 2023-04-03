@@ -157,14 +157,10 @@
 
 .services-text{
     width: 100%;
-    /* text-align: center;
-    /* margin: auto;
-    display: block; */ 
 }
 
 .services-header{
     display: flex;
-    /* text-align: center;  */
     align-items: center;
     justify-content: center;
 }
@@ -220,6 +216,22 @@
 
 
 
+
+.workstages{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workstage-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .workstage-span-text{
     font-family: var(--primary-font);
     font-size: 54px;
@@ -227,4 +239,96 @@
     color: var(--primary-color);
     margin-left: -45px;
     padding-top: 20px;
+}
+
+.workstage-type1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:-50px;
+}
+
+.stage-col{
+    width: 40%;
+}
+
+.stage-row{
+    display: flex;
+    align-items: center;
+}
+
+.stage-no{
+    /* margin-bottom: 0; */
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 125px;
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    opacity: 0.2;
+}
+
+.stage-row div{
+    padding-left: 60px;
+}
+
+.stage-title{
+    padding-top: 40px;
+    margin: 0;
+    font-family: var(--secondary-color);
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.stage-text{
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.workstage-img{
+    height: 550px;
+    width: auto;
+    padding-top: 50px;
+}
+
+.workstage-type2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallery-span-text{
+    font-family: var(--primary-font);
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-left: -60px;
+}
+
+.col img{
+    height: 500px;
+    width: auto;
 }
