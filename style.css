@@ -27,11 +27,12 @@
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
+    /* height: 60px; */
 }
 
 .navbar-brand{
     font-family: var(--primary-font);
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--primary-color);
 }
@@ -200,7 +201,7 @@
     transition: 1s;
 }
 
-.services-cols div a{
+.more-btn a{
     text-decoration: none;
     font-family: var(--secondary-color);
     font-weight: 500;
@@ -209,8 +210,10 @@
     margin: 0;
 }
 
+
+
 .next-btn{
-    height: 40px;
+    height: 60px;
     padding-left: 20px;
 }
 
@@ -328,7 +331,50 @@
     margin-left: -60px;
 }
 
-.col img{
-    height: 500px;
-    width: auto;
+.gallery-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img-col img{
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    
+}
+
+.landscape{
+    /* padding: 10px 0; */
+    width: 400px;
+    height: 300px;
+}
+
+.vertical{
+    /* padding: 10px 0; */
+    width: 400px;
+    height: 600px;
+}
+
+.main-vertical{
+    /* padding-top: 10px; */
+    width: 400px;
+    height: 600px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
